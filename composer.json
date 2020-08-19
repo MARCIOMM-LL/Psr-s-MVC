@@ -1,0 +1,22 @@
+{
+  "name": "miranda/doctrine",
+  "description": "Projeto doctrine",
+  "authors": [
+    {
+      "name": "Márcio",
+      "email": "m-andremiranda@outlook.com"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "^2.7",
+    "doctrine/migrations": "^2.0",
+    "psr/http-message": "^1.0",
+    "nyholm/psr7": "^1.3",
+    "nyholm/psr7-server": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alura\\Cursos\\": "src/"
+    }
+  }
+}
