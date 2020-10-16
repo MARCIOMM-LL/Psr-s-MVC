@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Alura\\Cursos\\": "src/"
+      "src\\Cursos\\": "src/"
     }
   }
 }
